@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jpa-sudy</name>
+	<name>jpa-study</name>
 	<description>JPA Getting Started</description>
 
 	<parent>
