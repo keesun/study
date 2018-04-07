@@ -1,0 +1,18 @@
+version: "3.3"
+
+volumes:
+  pgsql:
+
+services:
+  pgsql:
+    image: postgres:10-alpine
+    environment:
+      POSTGRES_USER: jpa
+      POSTGRES_PASSWORD: jpa
+      POSTGRES_DB: jpa
+      PGDATA: /data/postgres
+    volumes:
+      - pgsql:/data/postgres
+    ports:
+      - "5432:5432"
+    restart: always
