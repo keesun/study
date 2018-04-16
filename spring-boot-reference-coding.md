@@ -260,6 +260,16 @@ Mapping Error Pages outside of Spring MVC
 
 [![스프링 부트 Day 17](https://img.youtube.com/vi/tfpvEdq0xdU/0.jpg)](https://youtu.be/tfpvEdq0xdU)
 
+[01:00 - Practice. ConfigurableWebBindingInitializer](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=60s)
+
+[27:25 - 27.1.11 Error Handling (cont’d)](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=1645s)
+
+[29:29 - Custom Error Pages](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=1769s)
+
+[41:46 - Mapping Error Pages outside of Spring MVC](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=2506s)
+
+[46:25 - 27.1.12 Spring HATEOAS](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=2506s)
+
 ```
 27.1.11. Error Handling
 Custom Error Pages
@@ -618,5 +628,3 @@ Using the Java SE Platform
 ```
 
 ---
-
-
