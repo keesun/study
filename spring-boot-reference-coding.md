@@ -260,7 +260,7 @@ Mapping Error Pages outside of Spring MVC
 
 [![스프링 부트 Day 17](https://img.youtube.com/vi/tfpvEdq0xdU/0.jpg)](https://youtu.be/tfpvEdq0xdU)
 
-<a href="https://www.youtube.com/watch?v=tfpvEdq0xdU&t=60s" target="blank">01:00 - Practice. ConfigurableWebBindingInitializer</a>
+[01:00 - Practice. ConfigurableWebBindingInitializer](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=60s)
 
 [27:25 - 27.1.11 Error Handling (cont’d)](https://www.youtube.com/watch?v=tfpvEdq0xdU&t=1645s)
 
