@@ -228,6 +228,12 @@ Converting durations
 
 [![스프링 부트 Day 14](https://img.youtube.com/vi/CZYlgdKaGHI/0.jpg)](https://youtu.be/CZYlgdKaGHI)
 
+[00:00 - Practice. HttpMessageConverters](https://youtu.be/CZYlgdKaGHI?t=2)
+
+[42:40 - 27.1.4 MessageCodesResolver](https://www.youtube.com/watch?v=CZYlgdKaGHI&t=2560s)
+
+[53:29 - 27.1.5 Static Content](https://www.youtube.com/watch?v=CZYlgdKaGHI&t=3209s)
+
 ```
 27.1.4. MessageCodesResolver
 27.1.5. Static Content
