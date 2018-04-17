@@ -281,8 +281,13 @@ Mapping Error Pages outside of Spring MVC
 
 [![스프링 부트 Day 18](https://img.youtube.com/vi/HGUgrrqtK8U/0.jpg)](https://youtu.be/HGUgrrqtK8U)
 
+[00:55 - CORS Support](https://www.youtube.com/watch?v=HGUgrrqtK8U&t=55s)
+
+[34:24 - InfoQ Article - Spring Boot 2.0 Goes GA](https://youtu.be/HGUgrrqtK8U?t=2064)
+
 ```
 27.1.13. CORS Support
+(+ InfoQ Article - Spring Boot 2.0 Goes GA)
 ```
 
 ---
