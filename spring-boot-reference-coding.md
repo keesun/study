@@ -248,6 +248,16 @@ Converting durations
 
 [![스프링 부트 Day 16](https://img.youtube.com/vi/V-gBDmR6gZk/0.jpg)](https://youtu.be/V-gBDmR6gZk)
 
+[00:52 - 27.1.9 ConfigurableWebBindingInitializer](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=52s)
+
+[06:57 -  27.1.10 Template Engines](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=417s)
+
+[38:17 - 27.4.5 JSP Limitations](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2297s)
+
+[40:44 - 27.1.10 Template Engines (cont’d)](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2444s)
+
+[44:32 - 27.1.11 Error Handling](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2672s)
+
 ```
 27.1.9. ConfigurableWebBindingInitializer
 27.1.10. Template Engines
