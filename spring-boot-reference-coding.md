@@ -237,6 +237,17 @@ Converting durations
 
 [![스프링 부트 Day 15](https://img.youtube.com/vi/-jaRc_78b4I/0.jpg)](https://youtu.be/-jaRc_78b4I)
 
+[00:00 - 27.1.5 Static Content (cont’d)](https://www.youtube.com/watch?v=-jaRc_78b4I&t=0s)
+
+[48:28 - 27.1.6 Welcome Page](https://www.youtube.com/watch?v=-jaRc_78b4I&t=2908s)
+
+[51:23 - 27.1.7 Custom Favicon](https://www.youtube.com/watch?v=-jaRc_78b4I&t=3083s)
+
+[57:00 - 27.1.8 Path Matching and Content Negotiation](https://www.youtube.com/watch?v=-jaRc_78b4I&t=3420s)
+
+
+
+
 ```
 27.1.5. Static Content
 27.1.6. Welcome Page
