@@ -228,6 +228,12 @@ Converting durations
 
 [![스프링 부트 Day 14](https://img.youtube.com/vi/CZYlgdKaGHI/0.jpg)](https://youtu.be/CZYlgdKaGHI)
 
+[00:00 - Practice. HttpMessageConverters](https://youtu.be/CZYlgdKaGHI?t=2)
+
+[42:40 - 27.1.4 MessageCodesResolver](https://www.youtube.com/watch?v=CZYlgdKaGHI&t=2560s)
+
+[53:29 - 27.1.5 Static Content](https://www.youtube.com/watch?v=CZYlgdKaGHI&t=3209s)
+
 ```
 27.1.4. MessageCodesResolver
 27.1.5. Static Content
@@ -236,6 +242,17 @@ Converting durations
 ---
 
 [![스프링 부트 Day 15](https://img.youtube.com/vi/-jaRc_78b4I/0.jpg)](https://youtu.be/-jaRc_78b4I)
+
+[00:00 - 27.1.5 Static Content (cont’d)](https://www.youtube.com/watch?v=-jaRc_78b4I&t=0s)
+
+[48:28 - 27.1.6 Welcome Page](https://www.youtube.com/watch?v=-jaRc_78b4I&t=2908s)
+
+[51:23 - 27.1.7 Custom Favicon](https://www.youtube.com/watch?v=-jaRc_78b4I&t=3083s)
+
+[57:00 - 27.1.8 Path Matching and Content Negotiation](https://www.youtube.com/watch?v=-jaRc_78b4I&t=3420s)
+
+
+
 
 ```
 27.1.5. Static Content
@@ -247,6 +264,16 @@ Converting durations
 ---
 
 [![스프링 부트 Day 16](https://img.youtube.com/vi/V-gBDmR6gZk/0.jpg)](https://youtu.be/V-gBDmR6gZk)
+
+[00:52 - 27.1.9 ConfigurableWebBindingInitializer](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=52s)
+
+[06:57 -  27.1.10 Template Engines](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=417s)
+
+[38:17 - 27.4.5 JSP Limitations](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2297s)
+
+[40:44 - 27.1.10 Template Engines (cont’d)](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2444s)
+
+[44:32 - 27.1.11 Error Handling](https://www.youtube.com/watch?v=V-gBDmR6gZk&t=2672s)
 
 ```
 27.1.9. ConfigurableWebBindingInitializer
@@ -281,8 +308,13 @@ Mapping Error Pages outside of Spring MVC
 
 [![스프링 부트 Day 18](https://img.youtube.com/vi/HGUgrrqtK8U/0.jpg)](https://youtu.be/HGUgrrqtK8U)
 
+[00:55 - CORS Support](https://www.youtube.com/watch?v=HGUgrrqtK8U&t=55s)
+
+[34:24 - InfoQ Article - Spring Boot 2.0 Goes GA](https://youtu.be/HGUgrrqtK8U?t=2064)
+
 ```
 27.1.13. CORS Support
+(+ InfoQ Article - Spring Boot 2.0 Goes GA)
 ```
 
 ---
