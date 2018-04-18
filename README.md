@@ -3,11 +3,12 @@
 여기는 제가 공부한 것들 정리해서 올리는 저장소입니다.
 
 # Study
-## [(:tv:) InfoQ](infoq.md)
-## [(:tv:) 하이버네이트 ORM 레퍼런스 코딩](hibernate-orm-reference-coding.md)
-## [(:tv:) 스프링 부트 2.0 레퍼런스 코딩 1-39 (完)](spring-boot-reference-coding.md)
-## [(:tv:) 도커 시작하기 1-3 (完)](doker-getting-started.md)
-## [(:tv:) 쿠버네티스 시작하기 1-3(完)](kubernetes-getting-started.md)
+## [:tv: InfoQ](infoq.md)
+## [:tv: 하이버네이트 ORM 레퍼런스 코딩](hibernate-orm-reference-coding.md)
+## [:book: 이팩티브 자바](effective-java/readme.md)
+## [:tv: 스프링 부트 2.0 레퍼런스 코딩 1-39 (完)](spring-boot-reference-coding.md)
+## [:tv: 도커 시작하기 1-3 (完)](doker-getting-started.md)
+## [:tv: 쿠버네티스 시작하기 1-3(完)](kubernetes-getting-started.md)
 
 # Cheet Sheet
 ## [Docker 명령어 모음](docker-cmds.md)
