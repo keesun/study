@@ -1,6 +1,6 @@
 # 스프링 부트 2.0 레퍼런스 코딩
 
-## 리소스
+## 참고
 
 [스프링 부트 레퍼런스](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 [유툽/백기선/스프링 부트](https://www.youtube.com/playlist?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3)
