@@ -660,3 +660,19 @@ Using the Java SE Platform
 ```
 
 ---
+
+[![스프링 부트 Day 38](https://img.youtube.com/vi/Y-bEsQON-uw/0.jpg)](https://youtu.be/Y-bEsQON-uw)
+
+```
+61. Installing Spring Boot Applications
+61.1. Supported Operating Systems
+61.2. Unix/Linux Services
+61.2.1. Installation as an init.d Service (System V)
+Securing an init.d Service
+61.2.2. Installation as a systemd Service
+61.2.3. Customizing the Startup Script
+Customizing the Start Script when It Is Written
+Customizing a Script When It Runs
+61.3. Microsoft Windows Services
+```
+
