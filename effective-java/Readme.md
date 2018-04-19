@@ -15,3 +15,4 @@ http://www.informit.com/store/effective-java-9780134685991
 * [아이템 2: 생성자 매개변수가 많은 경우에 빌더 사용을 고려해 볼 것](item2.md)
 * [아이템 3: private 생성자 또는 enum 타입을 사용해서 싱글톤으로 만들 것](item3.md)
 * [아이템 4: private 생성자로 noninstantiability를 강제할 것](item4.md)
+* [아이템 5: 리소스를 엮을 때는 의존성 주입을 선호하라](item5.md)
