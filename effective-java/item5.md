@@ -89,4 +89,17 @@ class Lexicon {}
 
 위와 같은 의존성 주입은 생성자, 스태틱 팩토리([아이템1](item1.md)) 그리고 빌더([아이템2](item2.md))에도 적용할 수 있다.
 
-이 패턴의 변종으로 리소스의 팩토리를 생성자에 전당하는 방법도 있다.
+이 패턴의 변종으로 리소스의 팩토리를 생성자에 전달하는 방법도 있다. 이 방법은 자바 8에 들어온 `Supplier<T>` 인터페이스가 그런 팩토리로 쓰기에 완벽하다. `Supplier<T>`를 인자로 받는 메서드는 보통 `bounded wildcard type` ([아이템31](item31.md))으로 입력을 제한해야 한다.
+
+```java
+Mosaic create(Supplier<? extends Tile> tileFactory) { ... }
+```
+
+의존성 주입이 유연함과 테스트 용이함을 크게 향상 시켜주지만, 의존성이 많은 큰 프로젝트인 경웅에는 코드가 장황해 질 수 있다. 그점은 대거, 쥬스, 스프링 같은 프레임웍을 사용해서 해결할 수 있다.
+
+요약하자면 의존하는 리소스에 따라 행동을 달리하는 클래스를 만들 때는 싱글톤이나 스태틱 유틸 클래스를 사용하지 말자. 그런 경우에는 리소스를 생성자나 팩토리로 전달하는 의존성 주입을 사용하여 유연함, 재사용성, 테스트 용이성을 향상 시키자.
+
+## 참고
+
+* [팩토리 메소드 패턴](https://en.wikipedia.org/wiki/Factory_method_pattern)
+* [Supplier 인터페이스](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)
