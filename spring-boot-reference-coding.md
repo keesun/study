@@ -9,40 +9,38 @@
 
 [![스프링 부트 Day 1](https://img.youtube.com/vi/CnmTCMRTbxo/0.jpg)](https://youtu.be/CnmTCMRTbxo)
 
-```
-I. Spring Boot Documentation
-1. About the Documentation
-2. Getting Help
-3. First Steps
-4. Working with Spring Boot
-5. Learning about Spring Boot Features
-6. Moving to Production
-7. Advanced Topics
-II. Getting Started
-8. Introducing Spring Boot
-9. System Requirements
-9.1. Servlet Containers
-10. Installing Spring Boot
-10.1. Installation Instructions for the Java Developer
-10.1.1. Maven Installation
-10.1.2. Gradle Installation
-10.2. Installing the Spring Boot CLI
-10.2.1. Manual Installation
-10.2.2. Installation with SDKMAN!
-10.2.3. OSX Homebrew Installation
-10.2.4. MacPorts Installation
-10.2.5. Command-line Completion
-10.2.6. Quick-start Spring CLI Example
-10.3. Upgrading from an Earlier Version of Spring Boot
-11. Developing Your First Spring Boot Application
-11.1. Creating the POM
-11.2. Adding Classpath Dependencies
-11.3. Writing the Code
-11.3.1. The @RestController and @RequestMapping Annotations
-11.3.2. The @EnableAutoConfiguration Annotation
-11.3.3. The “main” Method
-11.4. Running the Example
-```
+[08:47 - I. Spring Boot Documentation](https://youtu.be/CnmTCMRTbxo?t=8m47s)  
+[08:56 - 1. About the Documentation](https://youtu.be/CnmTCMRTbxo?t=8m56s)  
+[09:47 - 2. Getting Help](https://youtu.be/CnmTCMRTbxo?t=9m47s)  
+[11:43 - 3. First Steps](https://youtu.be/CnmTCMRTbxo?t=11m43s)  
+[12:03 - 4. Working with Spring Boot](https://youtu.be/CnmTCMRTbxo?t=12m3s)  
+[12:14 - 5. Learning about Spring Boot Features](https://youtu.be/CnmTCMRTbxo?t=12m14s)  
+[12:29 - 6. Moving to Production](https://youtu.be/CnmTCMRTbxo?t=12m29s)  
+[12:43 - 7. Advanced Topics](https://youtu.be/CnmTCMRTbxo?t=12m43s)  
+[12:53 - II. Getting Started](https://youtu.be/CnmTCMRTbxo?t=12m53s)  
+[13:53 - 8. Introducing Spring Boot](https://youtu.be/CnmTCMRTbxo?t=13m53s)  
+[20:58 - 9. System Requirements](https://youtu.be/CnmTCMRTbxo?t=20m58s)  
+[21:33 - 9.1. Servlet Containers](https://youtu.be/CnmTCMRTbxo?t=21m33s)  
+[22:21 - 10. Installing Spring Boot](https://youtu.be/CnmTCMRTbxo?t=22m21s)  
+[23:52 - 10.1. Installation Instructions for the Java Developer](https://youtu.be/CnmTCMRTbxo?t=23m52s)  
+[25:34 - 10.1.1. Maven Installation](https://youtu.be/CnmTCMRTbxo?t=25m34s)  
+[36:49 - 10.1.2. Gradle Installation](https://youtu.be/CnmTCMRTbxo?t=36m49s)  
+[37:14 - 10.2. Installing the Spring Boot CLI](https://youtu.be/CnmTCMRTbxo?t=37m14s)  
+10.2.1. Manual Installation  
+10.2.2. Installation with SDKMAN!  
+10.2.3. OSX Homebrew Installation  
+10.2.4. MacPorts Installation  
+10.2.5. Command-line Completion  
+10.2.6. Quick-start Spring CLI Example  
+[39:42 - 10.3. Upgrading from an Earlier Version of Spring Boot](https://youtu.be/CnmTCMRTbxo?t=39m42s)  
+[41:08 - 11. Developing Your First Spring Boot Application](https://youtu.be/CnmTCMRTbxo?t=41m8s)  
+[41:59 - 11.1. Creating the POM](https://youtu.be/CnmTCMRTbxo?t=41m59s)  
+[45:06 - 11.2. Adding Classpath Dependencies](https://youtu.be/CnmTCMRTbxo?t=45m6s)  
+[47:52 - 11.3. Writing the Code](https://youtu.be/CnmTCMRTbxo?t=47m52s)  
+[49:57 - 11.3.1. The @RestController and @RequestMapping Annotations](https://youtu.be/CnmTCMRTbxo?t=49m57s)  
+[54:06 - 11.3.2. The @EnableAutoConfiguration Annotation](https://youtu.be/CnmTCMRTbxo?t=54m6s)  
+[57:21 - 11.3.3. The “main” Method](https://youtu.be/CnmTCMRTbxo?t=57m21s)  
+[58:00 - 11.4. Running the Example](https://youtu.be/CnmTCMRTbxo?t=58m)  
 
 ---
 
@@ -675,4 +673,3 @@ Customizing the Start Script when It Is Written
 Customizing a Script When It Runs
 61.3. Microsoft Windows Services
 ```
-
