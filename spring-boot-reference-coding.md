@@ -9,6 +9,48 @@
 
 [![스프링 부트 Day 1](https://img.youtube.com/vi/CnmTCMRTbxo/0.jpg)](https://youtu.be/CnmTCMRTbxo)
 
+[08:47 - Part I. Spring Boot Documentation](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=527s)
+
+[08:57 - 1. About the Documentation](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=537s)
+
+[09:48 - 2. Getting Help](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=588s)
+
+[11:43 - 3. First Steps ~ 7. Advanced Topics](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=703s)
+
+
+[13:02 - Part II. Getting Started](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=782s)
+
+[13:53 - 8. Introducing Spring Boot](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=833s)
+
+[20:56 - 9. System Requirements](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=1256s)
+
+[22:19 - 10. Installing Spring Boot](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=1339s)
+
+[23:51 - 10.1 Installation Instructions for the Java Developer](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=1431s)
+
+[25:33 - 10.1.1 Maven Installation](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=1533s)
+
+
+[35:46 - 13.2.2 Using Spring Boot without the Parent POM](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2146s)
+
+
+[39:44 - 10.3 Upgrading from an Earlier Version of Spring Boot](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2384s)
+
+[41:07 - 11. Developing Your First Spring Boot Application](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2467s)
+
+[42:00 - 11.1 Creating the POM](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2520s)
+
+[45:06 - 11.2 Adding Classpath Dependencies](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2706s)
+
+[47:52 - 11.3 Writing the Code](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2872s)
+
+[49:55 - 11.3.1 The @RestController and @RequestMapping Annotations](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=2995s)
+
+[54:07 - 11.3.2 The @EnableAutoConfiguration Annotation](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=3247s)
+
+[58:00 - 11.4 Running the Example.](https://www.youtube.com/watch?v=CnmTCMRTbxo&t=3480s)
+
+
 ```
 I. Spring Boot Documentation
 1. About the Documentation
