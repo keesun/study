@@ -452,6 +452,13 @@ Customizing ConfigurableServletWebServerFactory Directly
 
 [![스프링 부트 Day 29](https://img.youtube.com/vi/Lmy_yU7giRw/0.jpg)](https://youtu.be/Lmy_yU7giRw)
 
+[00:00 - 29.1.2 Connection to a Production Database](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3)
+
+[37:56 - 29.1.3 Connection to a JNDI DataSource](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3&t=2276)
+
+[38:04 - 29.2 Using JdbcTemplate](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3&t=2284)
+
+
 ```
 29.1.2. Connection to a Production Database
 29.1.3. Connection to a JNDI DataSource
