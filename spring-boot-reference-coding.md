@@ -42,6 +42,42 @@
 [57:21 - 11.3.3. The “main” Method](https://youtu.be/CnmTCMRTbxo?t=57m21s)  
 [58:00 - 11.4. Running the Example](https://youtu.be/CnmTCMRTbxo?t=58m)  
 
+
+```
+I. Spring Boot Documentation
+1. About the Documentation
+2. Getting Help
+3. First Steps
+4. Working with Spring Boot
+5. Learning about Spring Boot Features
+6. Moving to Production
+7. Advanced Topics
+II. Getting Started
+8. Introducing Spring Boot
+9. System Requirements
+9.1. Servlet Containers
+10. Installing Spring Boot
+10.1. Installation Instructions for the Java Developer
+10.1.1. Maven Installation
+10.1.2. Gradle Installation
+10.2. Installing the Spring Boot CLI
+10.2.1. Manual Installation
+10.2.2. Installation with SDKMAN!
+10.2.3. OSX Homebrew Installation
+10.2.4. MacPorts Installation
+10.2.5. Command-line Completion
+10.2.6. Quick-start Spring CLI Example
+10.3. Upgrading from an Earlier Version of Spring Boot
+11. Developing Your First Spring Boot Application
+11.1. Creating the POM
+11.2. Adding Classpath Dependencies
+11.3. Writing the Code
+11.3.1. The @RestController and @RequestMapping Annotations
+11.3.2. The @EnableAutoConfiguration Annotation
+11.3.3. The “main” Method
+11.4. Running the Example
+```
+
 ---
 
 [![스프링 부트 Day 2](https://img.youtube.com/vi/PicKx3lDGLk/0.jpg)](https://youtu.be/PicKx3lDGLk)
@@ -446,6 +482,13 @@ Customizing ConfigurableServletWebServerFactory Directly
 ---
 
 [![스프링 부트 Day 29](https://img.youtube.com/vi/Lmy_yU7giRw/0.jpg)](https://youtu.be/Lmy_yU7giRw)
+
+[00:00 - 29.1.2 Connection to a Production Database](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3)
+
+[37:56 - 29.1.3 Connection to a JNDI DataSource](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3&t=2276)
+
+[38:04 - 29.2 Using JdbcTemplate](https://youtu.be/Lmy_yU7giRw?list=PLfI752FpVCS8tDT1QEYwcXmkKDz-_6nm3&t=2284)
+
 
 ```
 29.1.2. Connection to a Production Database
