@@ -46,20 +46,17 @@
 
 [![스프링 부트 Day 2](https://img.youtube.com/vi/PicKx3lDGLk/0.jpg)](https://youtu.be/PicKx3lDGLk)
 
-```
-11.4. Running the Example
-11.5. Creating an Executable Jar
-12. What to Read Next
-III. Using Spring Boot
-13. Build Systems
-13.1. Dependency Management
-13.2. Maven
-13.2.1. Inheriting the Starter Parent
-13.2.2. Using Spring Boot without the Parent POM
-13.2.3. Using the Spring Boot Maven Plugin
-13.3. Gradle
-13.4. Ant
-```
+[03:00 - 11.5. Creating an Executable Jar](https://youtu.be/PicKx3lDGLk?t=3m)  
+[32:32 - 12. What to Read Next](https://youtu.be/PicKx3lDGLk?t=32m32s)  
+[33:30 - III. Using Spring Boot](https://youtu.be/PicKx3lDGLk?t=33m30s)  
+[34:48 - 13. Build Systems](https://youtu.be/PicKx3lDGLk?t=34m48s)  
+[36:35 - 13.1. Dependency Management](https://youtu.be/PicKx3lDGLk?t=36m35s)  
+[48:14 - 13.2. Maven](https://youtu.be/PicKx3lDGLk?t=48m14s)  
+[50:08 - 13.2.1. Inheriting the Starter Parent](https://youtu.be/PicKx3lDGLk?t=50m8s)  
+[52:09 - 13.2.2. Using Spring Boot without the Parent POM](https://youtu.be/PicKx3lDGLk?t=52m9s)  
+[54:25 - 13.2.3. Using the Spring Boot Maven Plugin](https://youtu.be/PicKx3lDGLk?t=54m25s)  
+13.3. Gradle  
+13.4. Ant  
 
 ---
 
