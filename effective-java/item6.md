@@ -72,5 +72,27 @@ public class UsingKeySet {
 ```
 ## 오토박싱
 
+불필요한 객체를 생성하는 또 다른 방법으로 오토박싱이 있다. 오토박싱은 프로그래머가 프리미티브 타입과 박스 타입을 섞어 쓸 수 있게 해주고 박싱과 언박싱을 자동으로 해준다.
 
+**오토박싱은 프리미티브 타입과 박스 타입의 경계가 안보이게 해주지만 그렇다고 그 경계를 없애주진 않는다.**
 
+```java
+public class AutoBoxingExample {
+
+    public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+        Long sum = 0l;
+        for (long i = 0 ; i <= Integer.MAX_VALUE ; i++) {
+            sum += i;
+        }
+        System.out.println(sum);
+        System.out.println(System.currentTimeMillis() - start);
+    }
+}
+```
+
+위 코드에서 `sum` 변수의 타입을 `Long`으로 만들었기 때문에 불필요한 Long 객체를 2의 31 제곱개 만큼 만들게 되고 대략 6초 조금 넘게 걸린다. 타입을 프리미티브 타입으로 바꾸면 600 밀리초로 약 10배 이상의 차이가 난다.
+
+**불필요한 오토박싱을 피하려면 박스 타입 보다는 프리미티브 타입을 사용해야 한다.**
+
+이번 아이템으로 인해 객체를 만드는 것은 비싸며 가급적이면 피해야 한다는 오해를 해서는 안된다.
