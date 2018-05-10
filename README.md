@@ -4,6 +4,7 @@
 
 # Study
 ## [:tv: InfoQ](infoq.md)
+## [:tv: 스프링 데이터 JPA](spring-data-jpa-reference-coding.md)
 ## [:tv: 하이버네이트 ORM 레퍼런스 코딩](hibernate-orm-reference-coding.md)
 ## [:book: 이팩티브 자바](https://github.com/keesun/study/tree/master/effective-java)
 ## [:tv: 스프링 부트 2.0 레퍼런스 코딩 1-39 (完)](spring-boot-reference-coding.md)
