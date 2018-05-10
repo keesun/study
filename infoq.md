@@ -7,6 +7,27 @@
 
 ## 유툽 인덱스
 
+### 오라클과 구글의 9조짜리 소송에 대해
+
+[![오라클과 구글의 9조짜리 소송에 대해](https://img.youtube.com/vi/ZFj_Mvpt5DY/0.jpg)](https://youtu.be/ZFj_Mvpt5DY)
+
+인포큐에 올라온 기사 "Oracle Seeks $8.8 Billion in Damages from Google after Appeal"를 읽으며 개인적인 생각과 실제 코드를 보여드렸습니다.
+
+원문은 아래에서 확인하실 수 있습니다.
+
+https://www.infoq.com/news/2018/04/google-owe-oracle?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage
+
+간략히 요약하자면, 1심에서 구글 승. 오라클이 항소심 걸고, 항소심에서 오라클 승. 그런데 2심에서 다시 구글 승. 오라클이 항소 걸고, 또 오라클이 항소심에서 승. 여기까지가 현재이고. 대법원에 갈 가능성이 있습니다.
+
+대법원에 가면 지금까지의 1심과 2심처럼 다시 구글이 이길 가능성이 높지 않을까 예측해 봅니다만.. 그거야 뭐 한 2년뒤면 알게 될지도 모르겠네요.
+
+제 개인적인 소견도 마지막에 살짝 말씀 드렸구요.
+
+그럼 아무쪼록 오늘도 좋은 하루 되시고. 
+시청해 주셔서 감사합니다.
+
+좋아요과 구독하기! 감사합니다.
+
 ### 자바 10 지역 변수 타입 추론
 
 [![자바 10 지역 변수 타입 추론](https://img.youtube.com/vi/iL-hr64hts4/0.jpg)](https://youtu.be/iL-hr64hts4)
