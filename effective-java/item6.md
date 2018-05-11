@@ -95,4 +95,8 @@ public class AutoBoxingExample {
 
 **불필요한 오토박싱을 피하려면 박스 타입 보다는 프리미티브 타입을 사용해야 한다.**
 
-이번 아이템으로 인해 객체를 만드는 것은 비싸며 가급적이면 피해야 한다는 오해를 해서는 안된다.
+이번 아이템으로 인해 객체를 만드는 것은 비싸며 가급적이면 피해야 한다는 오해를 해서는 안된다. 특히 방어적인 복사(Depensive copying)를 해야 하는 경우에도 객체를 재사용하면 심각한 버그와 보안성에 문제가 생긴다. 객체를 생성하면 그저 스타일과 성능에 영향을 줄 뿐인데...
+
+## 참고
+
+* [Depensive Copying](http://www.javapractices.com/topic/TopicAction.do?Id=15)

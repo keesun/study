@@ -42,7 +42,7 @@ https://docs.spring.io/spring/docs/5.0.5.RELEASE/spring-framework-reference/core
 
 [![스프링 데이터 JPA Day 3. 쿼리 메서드 만들기](https://img.youtube.com/vi/nwDeGsXn01I/0.jpg)](https://youtu.be/nwDeGsXn01I)
 
-스프링 데이터 JPA 레퍼런스 2.4를 보기 시작했습니다. 
+스프링 데이터 JPA 레퍼런스 2.4를 보기 시작했습니다.
 
 메서드를 보고 쿼리를 만드는 방법이 크게 두가지 있습니다. 메서드 이름을 보고 쿼리를 만드는 방법과, 메서드에 있는 어떠한 정보를 (보통 애노테이션이겠죠?) 바탕으로 개발자가 직접 정의한 쿼리를 가져오는 방법.
 
