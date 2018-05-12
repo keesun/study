@@ -1,7 +1,5 @@
 package me.whiteship.effectivejava3rd.item01;
 
-import org.springframework.boot.SpringApplication;
-
 import java.util.EnumSet;
 
 import static me.whiteship.effectivejava3rd.item01.Foo.Color.BLUE;
@@ -15,9 +13,6 @@ public class Foo {
     String address;
 
     public Foo() {
-
-        SpringApplication.run()
-
     }
 
     private static final Foo GOOD_NIGHT = new Foo();
