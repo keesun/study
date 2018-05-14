@@ -34,7 +34,7 @@ cocaCola.setCarbohydrate(27);
 
 신축적인 (Telescoping, 여기선 필수적인 매개변수와 부가적인 매개변수 조합으로 여러 생성자를 만들 수 있다는 것을 의미하는 단어로 쓰인듯 합니다.) 생성자의 안정성과 자바빈을 사용할때 얻을 수 있었던 가독성을 모두 취할 수 있는 대안이 있다. 바로 빌더 패턴이다.
 
-빌더 패턴은 만들려는 객체를 바로 만들기 않고 클라이언트는 빌더(생성자 또는 static 팩토리)에 필수적인 매개변수를 주면서 호출해 `Builder` 객체를 얻은 다음 빌더 객체가 제공하는 세터와 비슷한 메소드를 사용해서 부가적인 필드를 채워넣고 최종적으로 `build`라는 메소드를 호출해서 만들려는 객체를 생성한다.
+빌더 패턴은 만들려는 객체를 바로 만들지 않고 클라이언트는 빌더(생성자 또는 static 팩토리)에 필수적인 매개변수를 주면서 호출해 `Builder` 객체를 얻은 다음 빌더 객체가 제공하는 세터와 비슷한 메소드를 사용해서 부가적인 필드를 채워넣고 최종적으로 `build`라는 메소드를 호출해서 만들려는 객체를 생성한다.
 
 ```java
 NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8)
@@ -42,7 +42,7 @@ NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8)
 ```
 빌더 패턴으로 파이썬이나 스칼라가 제공하는 `Named Optional Parameter`를 모방할 수 있다.
 
-빌더의 생성자나 메소드에서 유효성 확인을 할 수도 있고 여러 매개변수를 홉합해서 확인해야 하는 경우에는 `build` 메소드에서 호출하는 생성자에서 할 수 있다. 빌더에서 매개변수를 객체로 복사해온 다음에 확인하고 ([아이템 50](item50.md)), 검증에 실패하면 `IllegalArgumentException`을 던지고 ([아이템 72](item72.md)) 에러 메시지로 어떤 매개변수가 잘못됐는지 알려줄 수 있다. ([아이템 75](item75.md))
+빌더의 생성자나 메소드에서 유효성 확인을 할 수도 있고 여러 매개변수를 혼합해서 확인해야 하는 경우에는 `build` 메소드에서 호출하는 생성자에서 할 수 있다. 빌더에서 매개변수를 객체로 복사해온 다음에 확인하고 ([아이템 50](item50.md)), 검증에 실패하면 `IllegalArgumentException`을 던지고 ([아이템 72](item72.md)) 에러 메시지로 어떤 매개변수가 잘못됐는지 알려줄 수 있다. ([아이템 75](item75.md))
 
 클래스 계층 구조를 잘 활용할 수 있다. 추상 빌더를 가지고 있는 추상 클래스를 만들고 하위 클래스에서는 추상 클래스를 상속받으며 각 하위 클래스용 빌더도 추상 빌더를 상속받아 만들 수 있다.
 
@@ -165,3 +165,4 @@ Calzone calzone = new Calzone.Builder()
 ## 참고
 
 * [롬복 @Builder](https://projectlombok.org/features/Builder)
+* [JS Object.freeze()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
