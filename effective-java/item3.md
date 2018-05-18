@@ -1,5 +1,7 @@
 # 아이템 3: private 생성자 또는 enum 타입을 사용해서 싱글톤으로 만들 것
 
+[![private 생성자 또는 enum 타입을 사용해서 싱글톤으로 만들 것](https://img.youtube.com/vi/xBVPChbtUhM/0.jpg)](https://youtu.be/xBVPChbtUhM)
+
 오직 한 인스턴스만 만드는 클래스를 *싱글톤*이라 부른다. 보통 함수 같은 Stateless 객체([아이템 24](item24.md)) 또는 본질적으로 유일한 시스템 컴포넌트를 그렇게 만든다.
 
 **싱글톤을 사용하는 클라이언트 코드를 테스트 하는게 어렵다.** 싱글톤이 인터페이스를 구현한게 아니라면 mock으로 교체하는게 어렵기 때문이다.

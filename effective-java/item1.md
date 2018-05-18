@@ -1,5 +1,7 @@
 # 아이템 1. 생성자 대신 static 팩토리 메소드를 고려해 볼 것
 
+[![생성자 대신 static 팩토리 메소드를 고려해 볼 것](https://img.youtube.com/vi/X7RXP6EI-5E/0.jpg)](https://youtu.be/X7RXP6EI-5E)
+
 ```java
 public static Boolean valueOf(boolean b) {
     return b ? Boolean.TRUE : Boolean.FALSE;
