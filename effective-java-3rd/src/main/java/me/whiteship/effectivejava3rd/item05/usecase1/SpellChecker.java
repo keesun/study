@@ -1,4 +1,4 @@
-package me.whiteship.effectivejava3rd.item04.usecase1;
+package me.whiteship.effectivejava3rd.item05.usecase1;
 
 import java.util.List;
 
@@ -14,9 +14,12 @@ public class SpellChecker {
         throw new UnsupportedOperationException();
     }
 
-
     public static List<String> suggestions(String typo) {
         throw new UnsupportedOperationException();
+    }
+
+    public static void main(String[] args) {
+        SpellChecker.isValid("hello");
     }
 }
 
@@ -24,3 +27,4 @@ public class SpellChecker {
 interface Lexicon {}
 
 class KoreanDicationry implements Lexicon {}
+
