@@ -26,9 +26,9 @@ public class Stack {
             throw new EmptyStackException();
         }
 
-        Object value = this.elements[--size];
+        Object result = this.elements[--size];
         this.elements[size] = null;
-        return value;
+        return result;
     }
 
     /**
