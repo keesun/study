@@ -19,4 +19,4 @@ http://www.informit.com/store/effective-java-9780134685991
 * [아이템 6: 불필요한 객체를 만들지 말자](item6.md)
 * [아이템 7: 더이상 쓰지 않는 객체 레퍼런스는 없애자](item7.md)
 * [아이템 8: Finalizer와 Cleaner는 사용하지 말 것](item8.md)
-* 
+* [아이템 9: Try-Finally 대신 Try-with-Resource 사용하라](item9.md)
