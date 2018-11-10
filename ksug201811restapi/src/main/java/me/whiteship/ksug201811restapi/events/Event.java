@@ -1,6 +1,7 @@
 package me.whiteship.ksug201811restapi.events;
 
 import lombok.*;
+import me.whiteship.ksug201811restapi.accounts.Account;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -26,6 +27,9 @@ public class Event {
     private boolean free;
     @Enumerated(EnumType.STRING)
     private EventStatus eventStatus = EventStatus.DRAFT;
+
+    @ManyToOne
+    private Account owner;
 
     public void update() {
         if (basePrice == 0 && maxPrice == 0) {
