@@ -1,4 +1,4 @@
-package me.whiteship.ksug201811restapi.events;
+package me.whiteship.ksug201811restapi.common;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
@@ -9,7 +9,7 @@ import org.springframework.validation.Errors;
 import java.io.IOException;
 
 @JsonComponent
-public class EventSerializer extends JsonSerializer<Errors> {
+public class ErrorsSerializer extends JsonSerializer<Errors> {
     @Override
     public void serialize(Errors errors, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
         jsonGenerator.writeStartArray();

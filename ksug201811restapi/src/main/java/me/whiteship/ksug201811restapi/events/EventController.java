@@ -1,5 +1,6 @@
 package me.whiteship.ksug201811restapi.events;
 
+import me.whiteship.ksug201811restapi.common.ErrorResource;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
@@ -30,12 +31,12 @@ public class EventController {
     public ResponseEntity create(@RequestBody @Valid EventDto eventDto,
                                  Errors errors) {
         if (errors.hasErrors()) {
-            return ResponseEntity.badRequest().body(errors);
+            return ResponseEntity.badRequest().body(new ErrorResource(errors));
         }
 
         eventDtoValidator.validate(eventDto, errors);
         if (errors.hasErrors()) {
-            return ResponseEntity.badRequest().body(errors);
+            return ResponseEntity.badRequest().body(new ErrorResource(errors));
         }
 
         Event event = modelMapper.map(eventDto, Event.class);
