@@ -126,10 +126,10 @@ public class EventControllerTest {
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
                 .content(objectMapper.writeValueAsString(eventDto)))
                 .andExpect(status().isBadRequest())
-                .andExpect(jsonPath("$[0].field").hasJsonPath())
-                .andExpect(jsonPath("$[0].rejectedValue").hasJsonPath())
-                .andExpect(jsonPath("$[0].defaultMessage").hasJsonPath())
-                .andExpect(jsonPath("$[0].objectName").hasJsonPath())
+                .andExpect(jsonPath("$.content[0].field").hasJsonPath())
+                .andExpect(jsonPath("$.content[0].rejectedValue").hasJsonPath())
+                .andExpect(jsonPath("$.content[0].defaultMessage").hasJsonPath())
+                .andExpect(jsonPath("$.content[0].objectName").hasJsonPath())
         ;
     }
 
