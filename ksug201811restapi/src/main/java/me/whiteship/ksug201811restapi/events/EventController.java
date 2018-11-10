@@ -1,5 +1,7 @@
 package me.whiteship.ksug201811restapi.events;
 
+import me.whiteship.ksug201811restapi.accounts.Account;
+import me.whiteship.ksug201811restapi.accounts.AccountAdapter;
 import me.whiteship.ksug201811restapi.common.ErrorResource;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,10 @@ import org.springframework.hateoas.Link;
 import org.springframework.hateoas.MediaTypes;
 import org.springframework.hateoas.PagedResources;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,7 +40,8 @@ public class EventController {
 
     @PostMapping
     public ResponseEntity create(@RequestBody @Valid EventDto eventDto,
-                                 Errors errors) {
+                                 Errors errors,
+                                 @CurrentUser Account account) {
         if (errors.hasErrors()) {
             return ResponseEntity.badRequest().body(new ErrorResource(errors));
         }
@@ -46,6 +53,7 @@ public class EventController {
 
         Event event = modelMapper.map(eventDto, Event.class);
         event.update();
+        event.setOwner(account);
 
         Event savedEvent = eventRepository.save(event);
         URI uri = linkTo(EventController.class).slash(savedEvent.getId()).toUri();
@@ -57,15 +65,21 @@ public class EventController {
     }
 
     @GetMapping
-    public ResponseEntity getEvents(Pageable pageable, PagedResourcesAssembler<Event> assembler) {
+    public ResponseEntity getEvents(Pageable pageable,
+                                    PagedResourcesAssembler<Event> assembler,
+                                    @CurrentUser Account account) {
         Page<Event> page = this.eventRepository.findAll(pageable);
         PagedResources<EventResource> pagedResources = assembler.toResource(page, e -> new EventResource(e));
+        if (account != null) {
+            pagedResources.add(linkTo(EventController.class).withRel("create"));
+        }
         return ResponseEntity.ok(pagedResources);
     }
 
 
     @GetMapping("/{id}")
-    public ResponseEntity getEvent(@PathVariable Integer id) {
+    public ResponseEntity getEvent(@PathVariable Integer id,
+                                   @CurrentUser Account account) {
         Optional<Event> byId = this.eventRepository.findById(id);
         if (byId.isEmpty()) {
             return ResponseEntity.notFound().build();
@@ -73,6 +87,10 @@ public class EventController {
 
         Event event = byId.get();
         EventResource eventResource = new EventResource(event);
+
+        if (event.getOwner().equals(account)) {
+            eventResource.add(linkTo(EventController.class).slash(event.getId()).withRel("update"));
+        }
         return ResponseEntity.ok(eventResource);
     }
 

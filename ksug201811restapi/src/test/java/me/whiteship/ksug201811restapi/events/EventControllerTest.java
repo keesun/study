@@ -169,6 +169,7 @@ public class EventControllerTest extends ControllerTests {
 
         // When & Then
         this.mockMvc.perform(get("/api/events")
+//                    .header(HttpHeaders.AUTHORIZATION, "bearer " + getAccessToken())
                     .param("size", "10")
                     .param("page", "1"))
                 .andDo(print())

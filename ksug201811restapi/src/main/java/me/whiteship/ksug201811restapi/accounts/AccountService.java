@@ -28,13 +28,10 @@ public class AccountService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Optional<Account> accountOptional = this.accountRepository.findByUsername(username);
         Account account = accountOptional.orElseThrow(() -> new UsernameNotFoundException(username));
-        return new User(account.getUsername(), account.getPassword(), authorities(account.getRoles()));
+        return new AccountAdapter(account);
     }
 
-    private Collection<? extends GrantedAuthority> authorities(Set<AccountRoles> roles) {
-        return roles.stream().map(r -> new SimpleGrantedAuthority("ROLE_" + r.name()))
-                .collect(Collectors.toSet());
-    }
+
 
     public void createAccount(Account account) {
         account.setPassword(passwordEncoder.encode(account.getPassword()));
