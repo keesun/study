@@ -1,6 +1,6 @@
 # Welcome
 Hi, This is Keesun (AKA, Whiteship) and this repository would contain the things that I am interested in.
-ALL THE BELOW CONTENTS ARE OWNED AND MADE BY MYSELF(Keesun).
+`ALL THE BELOW CONTENTS ARE OWNED AND MADE BY Keesun.`
 
 # Online Courses
 ## [:computer: Spring Framework Introduction](https://www.inflearn.com/course/spring/)
