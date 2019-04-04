@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}">Title</title>
+    <script src="/webjars/jquery/3.3.1/dist/jquery.min.js"></script>
+</head>
+<body>
+    <p th:text="'message is ' + #{home.welcome(${username})}">Welcome to home page</p>
+    <p th:text="${#temporals.format(now, 'yyyy-mm-dd')}">Now</p>
+    <p th:text="${#locale.country}">Locale</p>
+</body>
+</html>
