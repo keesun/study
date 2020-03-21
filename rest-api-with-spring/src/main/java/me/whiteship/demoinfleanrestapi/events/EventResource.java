@@ -1,11 +1,11 @@
 package me.whiteship.demoinfleanrestapi.events;
 
+import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.Link;
-import org.springframework.hateoas.Resource;
 
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-public class EventResource extends Resource<Event> {
+public class EventResource extends EntityModel<Event> {
 
     public EventResource(Event event, Link... links) {
         super(event, links);
